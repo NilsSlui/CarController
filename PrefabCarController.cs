@@ -187,19 +187,6 @@ public class PrefabCarController : MonoBehaviour {
         }
     }
 
-    //if car is up to speed start score
-    void StartScore()
-    {
-        if (!UpToSpeed) {
-			if (Speed > 30) {
-				UpToSpeed = true;
-			}
-		}
-        else {
-			Score += 1;
-        }
-	}
-
 	// Use this for initialization
 	void Start () {
 		GameObject maincam = GameObject.Find("Main Camera");
@@ -227,7 +214,6 @@ public class PrefabCarController : MonoBehaviour {
     private void LateUpdate()
     {
 		DebugText();
-		StartScore();
 	}
 
     //creates wheel collider at each wheel position (4 wheels only)
