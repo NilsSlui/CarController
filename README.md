@@ -16,5 +16,5 @@ Setup:
 3. Select two materials for active and disabled breaklight
 4. Attach breaklight element to script in editor.
 5. Label game camera as "Main Camera"
-6. Uncomment touchscreen controlls or keyboard controlls
+6. Uncomment touchscreen controls or keyboard controls
 7. Attach this script
